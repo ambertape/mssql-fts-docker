@@ -8,7 +8,7 @@ MSSQL (w/ Full Text Search) Docker & Docker Compose files
 - Don't forget to replace password in **docker-compose.yaml**
 
 ```
-git clone git@github.com:ambertape/mssql-fts-docker.git
+git clone [git@github.com:ambertape/mssql-fts-docker.git](https://github.com/ambertape/mssql-fts-docker.git)https://github.com/ambertape/mssql-fts-docker.git
 cd mssql-fts-docker
 docker compose up -d
 ```
