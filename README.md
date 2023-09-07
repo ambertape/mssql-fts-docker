@@ -1,4 +1,6 @@
-# MSSQL (w/ FTS) Docker and Docker Compose files
+# MSSQL FTS
+
+MSSQL (w/ Full Text Search) Docker & Docker Compose files
 
 ## Usage
 
