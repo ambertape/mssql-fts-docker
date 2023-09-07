@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  mssql:
+    platform: linux/amd64
+    container_name: mssql-fts
+    build:
+        context: .
+        dockerfile: Dockerfile
+    ports:
+        - '1433:1433'
+    environment:
+        - ACCEPT_EULA=Y
+        - SA_PASSWORD=YOUR_SECRET_PASSWORD
+    command: /init.sh
+    volumes:
+         - ./sqlserver/init.sh:/init.sh
